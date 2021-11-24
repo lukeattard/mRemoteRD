@@ -652,7 +652,7 @@ namespace mRemoteNG.UI.Window
 
             try
             {
-                using (var ica = new AxICAClient())
+                using (var ica = new AxWFICALib.AxICAClient())
                 {
                     ica.Parent = this;
 
